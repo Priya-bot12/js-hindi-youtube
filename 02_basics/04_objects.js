@@ -61,3 +61,30 @@ console.log(tinderUser.hasOwnProperty("isLoggedIn"))
 //other properties can be know from inspect
 
 
+//****************************De-structuring***************************** */
+
+const course = {
+    coursename : "js in hindi",
+    price : "999",
+    courseInstructure : "Priya"
+}
+
+const {courseInstructure : instructure} = course    //instructure we can give the shortcut
+const {price} = price
+
+//console.log(courseInstructure)
+console.log(instructure)
+
+ //APIs
+
+//  {
+//     "name " : "priya",
+//     "coursename" : "js-hindi"
+//  }
+
+// [                                       //random user me API
+                                                   //JSON format
+//     {},
+//     {},
+//     {}
+// ]
